@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "team": "sheriff"
+        },
+        "entity": {
+          "type": "minecraft:player",
+          "team": "peaceful"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill"
+    ]
+  ],
+  "rewards": {
+    "function": "alma_main:roles/rules/sheriffkillpeaceful"
+  }
+}

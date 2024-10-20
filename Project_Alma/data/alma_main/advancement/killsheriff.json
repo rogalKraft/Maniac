@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "team": "murderer"
+        },
+        "entity": {
+          "type": "minecraft:player",
+          "team": "sheriff"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill"
+    ]
+  ],
+  "rewards": {
+    "function": "alma_main:roles/rules/sheriffdeth"
+  }
+}

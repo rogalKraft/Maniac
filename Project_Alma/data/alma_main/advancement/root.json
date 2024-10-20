@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:player_head",
+        "count": 1,
+        "components": {
+          "minecraft:profile": {
+            "name": "Empty016"
+          }
+        }
+      },
+      "title": "RogalCreator",
+      "description": "Minigame maniac",
+      "background": "minecraft:textures/block/exposed_cut_copper.png",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

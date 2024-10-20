@@ -1,0 +1,5 @@
+#основное
+function alma_main:any/scorboard
+function alma_main:any/teams
+
+tellraw @a ["",{"text":"Greetings!\nThe Maniac datapack is loaded correctly. Tell me, is this your first time running the world with this datapack? If so, click ","color":"aqua"},{"text":"[here]","color":"yellow","clickEvent":{"action":"run_command","value":"/function alma_main:entity/help"}},{"text":" to open a menu with instructions and tips.","color":"aqua"},{"text":"\n"},{"text":"Created by Rogal.","color":"yellow"},{"text":"\n"},{"text":"modrinth <- click here","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/user/Rogal"}},{"text":"\n"},{"text":"planetminecraft <- click here","color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/r0gal/"}}]
