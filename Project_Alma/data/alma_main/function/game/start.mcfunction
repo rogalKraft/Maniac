@@ -10,7 +10,6 @@ scoreboard players set *calc1 Player 2
 scoreboard players set *game Player 0
 scoreboard players set *limit Player 1
 
-scoreboard players set @a[team=murderer] mkill 0
 
 
 scoreboard players operation *game Player = *count Player

@@ -20,4 +20,7 @@ execute if score @a[team=murderer, limit= 1] mkill >= *game Player run function 
 
 execute at @e[type=minecraft:item_display,tag=crossbow] as @a[distance=..2,team=peaceful] run scoreboard players add @s crossbowpikup 2 
 
-#генератор
+
+
+execute at @e[type=marker,tag=lobby] as @a[distance=7..10,tag=player] run effect give @a minecraft:regeneration 5 5 true
+execute at @e[type=marker,tag=lobby] as @a[distance=7..10,tag=player] run effect give @a minecraft:saturation 5 5 true

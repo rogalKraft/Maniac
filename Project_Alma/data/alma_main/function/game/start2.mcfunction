@@ -31,7 +31,9 @@ effect give @a[team=peaceful] minecraft:darkness infinite 2 true
 effect give @a[team=murderer] minecraft:darkness infinite 2 true
 effect give @a[team=sheriff] minecraft:darkness infinite 2 true
 
-
+scoreboard players set @a[team=murderer] mkill 0
 
 tp @a[tag=player] @e[tag=spawn,limit=1]
 
+effect give @a minecraft:saturation 5 5 true
+effect give @a minecraft:regeneration 5 5 true
